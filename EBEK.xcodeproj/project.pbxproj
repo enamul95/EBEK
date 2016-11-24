@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3259C9610D1F52249CE1197A /* Pods_EBEK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5224743C98A7E655BADF8BFB /* Pods_EBEK.framework */; };
+		91A3AF31B1298F3F25E84445 /* Pods_EBEKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E2E88792B38A5A6C9DE79 /* Pods_EBEKUITests.framework */; };
 		F4FA40B21DE6AA9700C5EF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40B11DE6AA9700C5EF83 /* AppDelegate.swift */; };
 		F4FA40B41DE6AA9700C5EF83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40B31DE6AA9700C5EF83 /* ViewController.swift */; };
 		F4FA40B71DE6AA9700C5EF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FA40B51DE6AA9700C5EF83 /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 		F4FA40BF1DE6AA9700C5EF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FA40BD1DE6AA9700C5EF83 /* LaunchScreen.storyboard */; };
 		F4FA40CA1DE6AA9700C5EF83 /* EBEKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40C91DE6AA9700C5EF83 /* EBEKTests.swift */; };
 		F4FA40D51DE6AA9700C5EF83 /* EBEKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40D41DE6AA9700C5EF83 /* EBEKUITests.swift */; };
+		F4FA40E51DE6B95A00C5EF83 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40E41DE6B95A00C5EF83 /* SWRevealViewController.m */; };
+		F4FA40E71DE6BD0100C5EF83 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40E61DE6BD0100C5EF83 /* Info.swift */; };
+		F4FA40E91DE6BE8800C5EF83 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40E81DE6BE8800C5EF83 /* SideMenuTableViewController.swift */; };
+		F4FA40EB1DE6BEDA00C5EF83 /* SideMenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40EA1DE6BEDA00C5EF83 /* SideMenuTableCell.swift */; };
+		F4FA40ED1DE6CA9B00C5EF83 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40EC1DE6CA9B00C5EF83 /* SignIn.swift */; };
+		F4FA40EF1DE6D06100C5EF83 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA40EE1DE6D06100C5EF83 /* SignUp.swift */; };
+		FB867CB979E8DB00F9AD2B24 /* Pods_EBEKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BDD39C2C219E0E185E0C2B /* Pods_EBEKTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175E2E88792B38A5A6C9DE79 /* Pods_EBEKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBEKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB91EB9B48BA7070EF85A23 /* Pods-EBEKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBEKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EBEKTests/Pods-EBEKTests.release.xcconfig"; sourceTree = "<group>"; };
+		5224743C98A7E655BADF8BFB /* Pods_EBEK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBEK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97595A31F4B92B22D33A3FBB /* Pods-EBEK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBEK.release.xcconfig"; path = "Pods/Target Support Files/Pods-EBEK/Pods-EBEK.release.xcconfig"; sourceTree = "<group>"; };
+		B21C7C40EC93838F2A92CE5B /* Pods-EBEKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBEKUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EBEKUITests/Pods-EBEKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA07D8104A1C56AE421615B3 /* Pods-EBEKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBEKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EBEKTests/Pods-EBEKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE952BE692FE21732998BEFE /* Pods-EBEKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBEKUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EBEKUITests/Pods-EBEKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1BDD39C2C219E0E185E0C2B /* Pods_EBEKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBEKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BA38453B426C12CCEFAD84 /* Pods-EBEK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBEK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EBEK/Pods-EBEK.debug.xcconfig"; sourceTree = "<group>"; };
 		F4FA40AE1DE6AA9700C5EF83 /* EBEK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBEK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FA40B11DE6AA9700C5EF83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4FA40B31DE6AA9700C5EF83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,14 @@
 		F4FA40D01DE6AA9700C5EF83 /* EBEKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBEKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FA40D41DE6AA9700C5EF83 /* EBEKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBEKUITests.swift; sourceTree = "<group>"; };
 		F4FA40D61DE6AA9700C5EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FA40E21DE6B95900C5EF83 /* EBEK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EBEK-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4FA40E31DE6B95A00C5EF83 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../../../Users/Enamul/Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		F4FA40E41DE6B95A00C5EF83 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../../Users/Enamul/Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		F4FA40E61DE6BD0100C5EF83 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		F4FA40E81DE6BE8800C5EF83 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		F4FA40EA1DE6BEDA00C5EF83 /* SideMenuTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableCell.swift; sourceTree = "<group>"; };
+		F4FA40EC1DE6CA9B00C5EF83 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		F4FA40EE1DE6D06100C5EF83 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3259C9610D1F52249CE1197A /* Pods_EBEK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB867CB979E8DB00F9AD2B24 /* Pods_EBEKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A3AF31B1298F3F25E84445 /* Pods_EBEKUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4185E59AEEABE6C06847A0F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5BA38453B426C12CCEFAD84 /* Pods-EBEK.debug.xcconfig */,
+				97595A31F4B92B22D33A3FBB /* Pods-EBEK.release.xcconfig */,
+				CA07D8104A1C56AE421615B3 /* Pods-EBEKTests.debug.xcconfig */,
+				2BB91EB9B48BA7070EF85A23 /* Pods-EBEKTests.release.xcconfig */,
+				B21C7C40EC93838F2A92CE5B /* Pods-EBEKUITests.debug.xcconfig */,
+				CE952BE692FE21732998BEFE /* Pods-EBEKUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6144C600DEC6E7F431DC72F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5224743C98A7E655BADF8BFB /* Pods_EBEK.framework */,
+				D1BDD39C2C219E0E185E0C2B /* Pods_EBEKTests.framework */,
+				175E2E88792B38A5A6C9DE79 /* Pods_EBEKUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4FA40A51DE6AA9700C5EF83 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				F4FA40C81DE6AA9700C5EF83 /* EBEKTests */,
 				F4FA40D31DE6AA9700C5EF83 /* EBEKUITests */,
 				F4FA40AF1DE6AA9700C5EF83 /* Products */,
+				4185E59AEEABE6C06847A0F9 /* Pods */,
+				A6144C600DEC6E7F431DC72F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +156,18 @@
 				F4FA40B11DE6AA9700C5EF83 /* AppDelegate.swift */,
 				F4FA40B31DE6AA9700C5EF83 /* ViewController.swift */,
 				F4FA40B51DE6AA9700C5EF83 /* Main.storyboard */,
+				F4FA40E61DE6BD0100C5EF83 /* Info.swift */,
+				F4FA40EC1DE6CA9B00C5EF83 /* SignIn.swift */,
+				F4FA40EE1DE6D06100C5EF83 /* SignUp.swift */,
+				F4FA40EA1DE6BEDA00C5EF83 /* SideMenuTableCell.swift */,
+				F4FA40E81DE6BE8800C5EF83 /* SideMenuTableViewController.swift */,
 				F4FA40BB1DE6AA9700C5EF83 /* Assets.xcassets */,
 				F4FA40BD1DE6AA9700C5EF83 /* LaunchScreen.storyboard */,
 				F4FA40C01DE6AA9700C5EF83 /* Info.plist */,
 				F4FA40B81DE6AA9700C5EF83 /* EBEK.xcdatamodeld */,
+				F4FA40E31DE6B95A00C5EF83 /* SWRevealViewController.h */,
+				F4FA40E41DE6B95A00C5EF83 /* SWRevealViewController.m */,
+				F4FA40E21DE6B95900C5EF83 /* EBEK-Bridging-Header.h */,
 			);
 			path = EBEK;
 			sourceTree = "<group>";
@@ -135,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4FA40D91DE6AA9700C5EF83 /* Build configuration list for PBXNativeTarget "EBEK" */;
 			buildPhases = (
+				D5E3CDA1813FA2151930F723 /* [CP] Check Pods Manifest.lock */,
 				F4FA40AA1DE6AA9700C5EF83 /* Sources */,
 				F4FA40AB1DE6AA9700C5EF83 /* Frameworks */,
 				F4FA40AC1DE6AA9700C5EF83 /* Resources */,
+				BD57D00B3BCF9969086ABB64 /* [CP] Embed Pods Frameworks */,
+				76EE84771FB6D812C4EC177F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4FA40DC1DE6AA9700C5EF83 /* Build configuration list for PBXNativeTarget "EBEKTests" */;
 			buildPhases = (
+				5B3D9E770718C87E3E682A83 /* [CP] Check Pods Manifest.lock */,
 				F4FA40C11DE6AA9700C5EF83 /* Sources */,
 				F4FA40C21DE6AA9700C5EF83 /* Frameworks */,
 				F4FA40C31DE6AA9700C5EF83 /* Resources */,
+				601BB31F7CA3E2B1E64AE523 /* [CP] Embed Pods Frameworks */,
+				91CE1191AC5BD4B6CD5339F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4FA40DF1DE6AA9700C5EF83 /* Build configuration list for PBXNativeTarget "EBEKUITests" */;
 			buildPhases = (
+				EF4B9E97619109FCB570663F /* [CP] Check Pods Manifest.lock */,
 				F4FA40CC1DE6AA9700C5EF83 /* Sources */,
 				F4FA40CD1DE6AA9700C5EF83 /* Frameworks */,
 				F4FA40CE1DE6AA9700C5EF83 /* Resources */,
+				769EC30269D190FE12C5C853 /* [CP] Embed Pods Frameworks */,
+				13769ABAE21866C0FFF95760 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +267,7 @@
 				TargetAttributes = {
 					F4FA40AD1DE6AA9700C5EF83 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					F4FA40C41DE6AA9700C5EF83 = {
@@ -257,14 +329,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13769ABAE21866C0FFF95760 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EBEKUITests/Pods-EBEKUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3D9E770718C87E3E682A83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		601BB31F7CA3E2B1E64AE523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EBEKTests/Pods-EBEKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		769EC30269D190FE12C5C853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EBEKUITests/Pods-EBEKUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76EE84771FB6D812C4EC177F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EBEK/Pods-EBEK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91CE1191AC5BD4B6CD5339F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EBEKTests/Pods-EBEKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD57D00B3BCF9969086ABB64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EBEK/Pods-EBEK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E3CDA1813FA2151930F723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4B9E97619109FCB570663F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4FA40AA1DE6AA9700C5EF83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F4FA40BA1DE6AA9700C5EF83 /* EBEK.xcdatamodeld in Sources */,
+				F4FA40E91DE6BE8800C5EF83 /* SideMenuTableViewController.swift in Sources */,
+				F4FA40EB1DE6BEDA00C5EF83 /* SideMenuTableCell.swift in Sources */,
 				F4FA40B41DE6AA9700C5EF83 /* ViewController.swift in Sources */,
 				F4FA40B21DE6AA9700C5EF83 /* AppDelegate.swift in Sources */,
+				F4FA40E71DE6BD0100C5EF83 /* Info.swift in Sources */,
+				F4FA40E51DE6B95A00C5EF83 /* SWRevealViewController.m in Sources */,
+				F4FA40EF1DE6D06100C5EF83 /* SignUp.swift in Sources */,
+				F4FA40ED1DE6CA9B00C5EF83 /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,30 +630,38 @@
 		};
 		F4FA40DA1DE6AA9700C5EF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BA38453B426C12CCEFAD84 /* Pods-EBEK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EBEK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = era.com.bd.EBEK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EBEK/EBEK-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F4FA40DB1DE6AA9700C5EF83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97595A31F4B92B22D33A3FBB /* Pods-EBEK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EBEK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = era.com.bd.EBEK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EBEK/EBEK-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		F4FA40DD1DE6AA9700C5EF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA07D8104A1C56AE421615B3 /* Pods-EBEKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +676,7 @@
 		};
 		F4FA40DE1DE6AA9700C5EF83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB91EB9B48BA7070EF85A23 /* Pods-EBEKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +691,7 @@
 		};
 		F4FA40E01DE6AA9700C5EF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21C7C40EC93838F2A92CE5B /* Pods-EBEKUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EBEKUITests/Info.plist;
@@ -479,6 +705,7 @@
 		};
 		F4FA40E11DE6AA9700C5EF83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE952BE692FE21732998BEFE /* Pods-EBEKUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EBEKUITests/Info.plist;
@@ -509,6 +736,7 @@
 				F4FA40DB1DE6AA9700C5EF83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4FA40DC1DE6AA9700C5EF83 /* Build configuration list for PBXNativeTarget "EBEKTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +745,7 @@
 				F4FA40DE1DE6AA9700C5EF83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4FA40DF1DE6AA9700C5EF83 /* Build configuration list for PBXNativeTarget "EBEKUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +754,7 @@
 				F4FA40E11DE6AA9700C5EF83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
